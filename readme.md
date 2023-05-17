@@ -6,4 +6,6 @@
  - Dev and Prod environment, sourceMaps
  - следование методологии git flow
  - работа с gitFlow
+ - верстка по методологии БЭМ
+ 
  

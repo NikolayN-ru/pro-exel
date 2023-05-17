@@ -1,9 +1,32 @@
-$red: rgb(130, 125, 157);
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Prata&family=Roboto:wght@300;400;500;700&display=swap");
+@import "~normalize.css";
 
-#app {
-  color: blue;
+@import "header";
+@import "toolbar";
+@import "formula";
+@import "table";
+// @import "variables";
+// @import "mixins";
+
+$red: rgb(130, 125, 157);
+$color: rgb(226, 223, 245);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
+  font-family: "Playfair Display", serif;
+  font-family: cursive;
+  font-size: 12px;
   background: $red;
+  color: $color;
+  // text-align: center;
+  // margin: 40px;
+}
+
+.excel {
+  position: relative;
 }
