@@ -1,2 +1,4 @@
-import './module'
-console.log('working2')
+import "./module";
+import "./scss/style.scss";
+
+console.log("working2");
